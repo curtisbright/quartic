@@ -1,0 +1,66 @@
+\ifx\pdfoutput\undefined\relax\else      % If using pdfTeX
+\pdfmapline{cmbx36 cmbx36 <sfbx3583.pfb} % Use cm-super font for cmbx36
+\pdfmapline{cmex10 cmex10 <cmex10.pfb}
+\pdfmapline{cmmi10 cmmi10 <cmmi10.pfb}
+\pdfmapline{cmmi17 cmmi17 <cmmi12.pfb}   % Replace cmmi17 by cmmi12
+\pdfmapline{cmr5 cmr5 <cmr5.pfb}
+\pdfmapline{cmr7 cmr7 <cmr7.pfb}
+\pdfmapline{cmr10 cmr10 <cmr10.pfb}
+\pdfmapline{cmr1190 cmr1190 <cmr12.pfb}  % Replace cmr1190 by cmr12
+\pdfmapline{cmr17 cmr17 <cmr17.pfb}
+\pdfmapline{cmsy7 cmsy7 <cmsy7.pfb}
+\pdfmapline{cmsy10 cmsy10 <cmsy10.pfb}
+\pdfmapline{cmsy12 cmsy12 <cmsy10.pfb}   % Replace cmsy12 by cmsy10
+\pdfmapline{cmsy17 cmsy17 <cmsy10.pfb}   % Replace cmsy17 by cmsy10
+\pdfmapline{cmti12 cmti12 <cmti12.pfb}
+\pdfpagewidth=1189mm
+\pdfpageheight=420.5mm
+\pdfhorigin=0mm
+\pdfvorigin=0mm\fi
+\hsize=1189mm
+\vsize=420.5mm
+\font\dir=cmti12 at 32pt
+\font\dirsy=cmsy12 at 32pt
+\font\desc=cmr17 at 64pt
+\font\descscript=cmr1190 at 44.8pt
+\font\descmath=cmmi17 at 64pt
+\font\descsy=cmsy17 at 64pt
+\font\quart=cmr10 at 8pt
+\font\quartscript=cmr7 at 5.6pt
+\font\quartscriptscript=cmr5 at 4pt
+\font\quartmath=cmmi10 at 8pt
+\font\quartsy=cmsy10 at 8pt
+\font\quartscriptsy=cmsy7 at 5.6pt
+\font\quartex=cmex10 at 8pt
+\font\tit=cmbx36 at 192pt
+\nopagenumbers
+\def\sgn{\mathop{\rm sgn}}
+\catcode`@=11
+\def\big#1{{\hbox{$\left#1\vbox to6.8\p@{}\right.\n@space$}}}
+\def\Big#1{{\hbox{$\left#1\vbox to9.2\p@{}\right.\n@space$}}}
+\def\bigg#1{{\hbox{$\left#1\vbox to11.6\p@{}\right.\n@space$}}}
+\catcode`@=12
+\hbox{}
+\vfill
+\centerline{\tit The Quartic Formula}
+\vskip 70mm
+{\textfont0=\quart
+\scriptfont0=\quartscript
+\scriptscriptfont0=\quartscriptscript
+\textfont1=\quartmath
+\textfont2=\quartsy
+\scriptfont2=\quartscriptsy
+\textfont3=\quartex
+$$ x = {-3b\pm\biggl(\sqrt{3\Bigl(3b^2-8ac+2a\root3\of{4\bigl(2c^3-9bcd+27ad^2+27b^2e-72ace+\sqrt{(2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3}\bigr)}+2a\root3\of{4\bigl(2c^3-9bcd+27ad^2+27b^2e-72ace-\sqrt{(2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3}\bigr)}\Bigr)}\pm\sqrt{3\Bigl(3b^2-8ac+2a\bigl({-1+\sqrt{-3}\over2}\bigr)\root3\of{4\bigl(2c^3-9bcd+27ad^2+27b^2e-72ace+\sqrt{(2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3}\bigr)}+2a\bigl({-1-\sqrt{-3}\over2}\bigr)\root3\of{4\bigl(2c^3-9bcd+27ad^2+27b^2e-72ace-\sqrt{(2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3}\bigr)}\Bigr)}\biggr)\pm\sgn\biggl(\Bigl(\sgn\bigl(-b^3+4abc-8a^2d\bigr)-{1\over2}\Bigr)\Bigl(\sgn\bigl(\max((2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3,\min(3b^2-8ac,3b^4+16a^2c^2+16a^2bd-16ab^2c-64a^3e))\bigr)-{1\over2}\Bigr)\biggr)\sqrt{3\Bigl(3b^2-8ac+2a\bigl({-1-\sqrt{-3}\over2}\bigr)\root3\of{4\bigl(2c^3-9bcd+27ad^2+27b^2e-72ace+\sqrt{(2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3}\bigr)}+2a\bigl({-1+\sqrt{-3}\over2}\bigr)\root3\of{4\bigl(2c^3-9bcd+27ad^2+27b^2e-72ace-\sqrt{(2c^3-9bcd+27ad^2+27b^2e-72ace)^2-4(c^2-3bd+12ae)^3}\bigr)}\Bigr)}\over12a} $$}
+\vskip 70mm
+\centerline{\desc
+\textfont0=\desc
+\scriptfont0=\descscript
+\textfont1=\descmath
+\textfont2=\descsy
+The quartic formula gives the solutions of $ax^4+bx^3+cx^2+dx+e=0$ for real numbers $a$, $b$, $c$, $d$, $e$ with $a\neq0$.}
+\vskip 30mm
+\centerline{\dir
+\textfont2=\dirsy
+Directions: Choose all possibilities for the three\/ $\pm$ signs with the last two equivalent.  Use real cube roots if possible, and principal roots otherwise.}
+\bye

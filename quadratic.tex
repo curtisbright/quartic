@@ -1,0 +1,35 @@
+\ifx\pdfoutput\undefined\relax\else      % If using pdfTeX
+\pdfmapline{cmbx36 cmbx36 <sfbx3583.pfb} % Use cm-super font for cmbx36
+\pdfmapline{cmmi10 cmmi10 <cmmi10.pfb}
+\pdfmapline{cmmi17 cmmi17 <cmmi12.pfb}   % Replace cmmi17 by cmmi12
+\pdfmapline{cmr7 cmr7 <cmr7.pfb}
+\pdfmapline{cmr10 cmr10 <cmr10.pfb}
+\pdfmapline{cmr1190 cmr1190 <cmr12.pfb}  % Replace cmr1190 by cmr12
+\pdfmapline{cmr17 cmr17 <cmr17.pfb}
+\pdfmapline{cmsy10 cmsy10 <cmsy10.pfb}
+\pdfmapline{cmsy17 cmsy17 <cmsy10.pfb}   % Replace cmsy17 by cmsy10
+\pdfpagewidth=297mm
+\pdfpageheight=210mm
+\pdfhorigin=0mm
+\pdfvorigin=0mm\fi
+\hsize=297mm
+\vsize=210mm
+\nopagenumbers
+\font\tit=cmbx36 at 64pt
+\font\desc=cmr17 at 17pt
+\font\descscript=cmr1190 at 11.9pt
+\font\descmath=cmmi17 at 17pt
+\font\descsy=cmsy17 at 17pt
+\hbox{}
+\vfill
+\centerline{\tit The Quadratic Formula}
+\vskip 25mm
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+\vskip 25mm
+\centerline{\desc
+\textfont0=\desc
+\scriptfont0=\descscript
+\textfont1=\descmath
+\textfont2=\descsy
+The quadratic formula gives the solutions of $ax^2+bx+c=0$ for real numbers $a$, $b$, $c$ with $a\neq0$.}
+\bye

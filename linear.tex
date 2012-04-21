@@ -1,0 +1,32 @@
+\ifx\pdfoutput\undefined\relax\else      % If using pdfTeX
+\pdfmapline{cmbx36 cmbx36 <sfbx3583.pfb} % Use cm-super font for cmbx36
+\pdfmapline{cmmi10 cmmi10 <cmmi10.pfb}
+\pdfmapline{cmmi17 cmmi17 <cmmi12.pfb}   % Replace cmmi17 by cmmi12
+\pdfmapline{cmr7 cmr7 <cmr7.pfb}
+\pdfmapline{cmr10 cmr10 <cmr10.pfb}
+\pdfmapline{cmr17 cmr17 <cmr17.pfb}
+\pdfmapline{cmsy10 cmsy10 <cmsy10.pfb}
+\pdfmapline{cmsy17 cmsy17 <cmsy10.pfb}   % Replace cmsy17 by cmsy10
+\pdfpagewidth=297mm
+\pdfpageheight=210mm
+\pdfhorigin=0mm
+\pdfvorigin=0mm\fi
+\hsize=297mm
+\vsize=210mm
+\nopagenumbers
+\font\tit=cmbx36 at 64pt
+\font\desc=cmr17 at 17pt
+\font\descmath=cmmi17 at 17pt
+\font\descsy=cmsy17 at 17pt
+\hbox{}
+\vfill
+\centerline{\tit The Linear Formula}
+\vskip 25mm
+$$ x = {-b \over a} $$
+\vskip 25mm
+\centerline{\desc
+\textfont0=\desc
+\textfont1=\descmath
+\textfont2=\descsy
+The linear formula gives the solution of $ax+b=0$ for real numbers $a$, $b$ with $a\neq0$.}
+\bye

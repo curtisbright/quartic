@@ -1,0 +1,5 @@
+This is the TeX source code for the "Quartic Formula Poster" - http://www.curtisbright.com/quartic/
+
+To compile, run "make name", where name is one of {quartic, cubic, quadratic, linear, formulae, all}.  Appending "-type3" to name compiles a version which uses Type 3 fonts.
+
+The Type 1 fonts required are listed in the TeX files; in particular, sfbx3583.pfb from the cm-super package.  The Type 3 version uses a PHP script to compile the necessary fonts.

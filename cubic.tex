@@ -1,0 +1,53 @@
+\ifx\pdfoutput\undefined\relax\else      % If using pdfTeX
+\pdfmapline{cmbx36 cmbx36 <sfbx3583.pfb} % Use cm-super font for cmbx36
+\pdfmapline{cmex10 cmex10 <cmex10.pfb}
+\pdfmapline{cmmi7 cmmi7 <cmmi7.pfb}
+\pdfmapline{cmmi10 cmmi10 <cmmi10.pfb}
+\pdfmapline{cmmi12 cmmi12 <cmmi12.pfb}
+\pdfmapline{cmmi17 cmmi17 <cmmi12.pfb}   % Replace cmmi17 by cmmi12
+\pdfmapline{cmr5 cmr5 <cmr5.pfb}
+\pdfmapline{cmr7 cmr7 <cmr7.pfb}
+\pdfmapline{cmr10 cmr10 <cmr10.pfb}
+\pdfmapline{cmr1190 cmr1190 <cmr12.pfb}  % Replace cmr1190 by cmr12
+\pdfmapline{cmr12 cmr12 <cmr12.pfb}
+\pdfmapline{cmr17 cmr17 <cmr17.pfb}
+\pdfmapline{cmsy7 cmsy7 <cmsy7.pfb}
+\pdfmapline{cmsy10 cmsy10 <cmsy10.pfb}
+\pdfmapline{cmsy12 cmsy12 <cmsy10.pfb}   % Replace cmsy12 by cmsy10
+\pdfmapline{cmsy17 cmsy17 <cmsy10.pfb}   % Replace cmsy17 by cmsy10
+\pdfmapline{cmti12 cmti12 <cmti12.pfb}
+\pdfpagewidth=297mm
+\pdfpageheight=210mm
+\pdfhorigin=0mm
+\pdfvorigin=0mm\fi
+\hsize=297mm
+\vsize=210mm
+\nopagenumbers
+\font\tit=cmbx36 at 64pt
+\font\desc=cmr17 at 17pt
+\font\descscript=cmr1190 at 11.9pt
+\font\descmath=cmmi17 at 17pt
+\font\descsy=cmsy17 at 17pt
+\font\dir=cmti12 at 12pt
+\font\dirdigit=cmr12 at 12pt
+\font\dirmath=cmmi12 at 12pt
+\font\dirsy=cmsy12 at 12pt
+\hbox{}
+\vfill
+\centerline{\tit The Cubic Formula}
+\vskip 25mm
+$$ x = {-2b + \bigl({-1+\sqrt{-3}\over2}\bigr)^n\root3\of{4\bigl(-2b^3+9abc-27a^2d+\sqrt{(-2b^3+9abc-27a^2d)^2-4(b^2-3ac)^3}\bigr)}+\bigl({-1-\sqrt{-3}\over2}\bigr)^n\root3\of{4\bigl(-2b^3+9abc-27a^2d-\sqrt{(-2b^3+9abc-27a^2d)^2-4(b^2-3ac)^3}\bigr)} \over 6a} $$
+\vskip 25mm
+\centerline{\desc
+\textfont0=\desc
+\scriptfont0=\descscript
+\textfont1=\descmath
+\textfont2=\descsy
+The cubic formula gives the solutions of $ax^3+bx^2+cx+d=0$ for real numbers $a$, $b$, $c$, $d$ with $a\neq0$.}
+\vskip 10mm
+\centerline{\dir
+\textfont0=\dirdigit
+\textfont1=\dirmath
+\textfont2=\dirsy
+Directions: Take\/ $n=0$, $1$, $2$.  Use real cube roots if possible, and principal roots otherwise.}
+\bye
